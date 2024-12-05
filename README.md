@@ -1,7 +1,4 @@
 # TM
 https://github.com/tomislavveleri/TM
 
-SELECT zaposlenik, SUM(broj_sati) AS ukupni_sati
-FROM evidencija
-GROUP BY zaposlenik;
-
+SELECT SUM(broj_sati) AS ukupni_sati, evidencija.zaposlenik  FROM evidencija WHERE zaposlenik=2
