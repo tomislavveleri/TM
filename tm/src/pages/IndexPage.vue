@@ -1,7 +1,8 @@
 <template>
+<div class="center">
   <div class="q-pa-md row items-start q-gutter-md">
   
-<div class="center">
+
     <q-card
       class="my-card text-white"
       style="background: radial-gradient(circle, #35a2ff 0%, #014a88 100%)"
